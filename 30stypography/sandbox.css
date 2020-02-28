@@ -1,0 +1,32 @@
+.shadow-typo {
+    position: relative;
+    display: inline-block;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #00b3b4;
+    text-shadow: 3px 3px 0px #e7eef1, 8px 8px 0px rgba(0,0,0,0.1);
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.threedee-typo {
+    font-size: 8em;
+    text-transform: uppercase;
+    color: #f2395a;
+    -webkit-transform: skew(-5deg, -5deg) rotate(10deg);
+            transform: skew(-5deg, -5deg) rotate(10deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    text-shadow: 1px 1px #0e63d1,
+                 2px 2px #0e63d1,
+                 3px 3px #0e63d1,
+                 4px 4px #0e63d1,
+                 5px 5px #0e63d1,
+                 6px 6px #0e63d1,
+                 7px 7px #0e63d1,
+                 8px 8px #091689,
+                 9px 9px #091689,
+                 10px 10px #091689,
+                 11px 11px 15px rgba(0,0,0,0.5);
+                 font-family: cursive;
+  }
